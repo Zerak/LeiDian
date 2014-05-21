@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState">
+      <UniqueIdentifier>{924c0ff4-5254-4eea-9156-6ffe236130c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState\GameMgr">
+      <UniqueIdentifier>{0b4deb26-81aa-49d5-b404-329689a00a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState\GameMgr\EnemyMgr">
+      <UniqueIdentifier>{1c3ae399-d8c1-4e60-ac54-9258abe13bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState\GameMgr\PlayerMgr">
+      <UniqueIdentifier>{47b6f76c-d120-440a-bb92-c512e4081e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState\GameMgr\map">
+      <UniqueIdentifier>{057e7c33-fd12-4909-bfe6-b52619e5b82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameState\GameMgr\ItemMgr">
+      <UniqueIdentifier>{8f60330d-50a2-419e-ad9e-9c8886a54d61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadLogo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMenu.cpp">
+      <Filter>Classes\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameEvents.cpp">
+      <Filter>Classes\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLevel.cpp">
+      <Filter>Classes\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>Classes\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCRadioMenu.cpp">
+      <Filter>Classes\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UnitSprite.cpp">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyManager.cpp">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemySprite.cpp">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BossSprite.cpp">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleSprite.cpp">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerSprite.cpp">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect.cpp">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMap.cpp">
+      <Filter>Classes\GameState\GameMgr\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ItemSprite.cpp">
+      <Filter>Classes\GameState\GameMgr\ItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ItemManager.cpp">
+      <Filter>Classes\GameState\GameMgr\ItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMessage.cpp">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletSprite.cpp">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MoveTrackArray.cpp">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletManager.cpp">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadLogo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMenu.h">
+      <Filter>Classes\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameEvents.h">
+      <Filter>Classes\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLevel.h">
+      <Filter>Classes\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>Classes\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCRadioMenu.h">
+      <Filter>Classes\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UnitSprite.h">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyManager.h">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemySprite.h">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BossSprite.h">
+      <Filter>Classes\GameState\GameMgr\EnemyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerSprite.h">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleSprite.h">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect.h">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMap.h">
+      <Filter>Classes\GameState\GameMgr\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ItemSprite.h">
+      <Filter>Classes\GameState\GameMgr\ItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ItemManager.h">
+      <Filter>Classes\GameState\GameMgr\ItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMessage.h">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletSprite.h">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MoveTrackArray.h">
+      <Filter>Classes\GameState\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletManager.h">
+      <Filter>Classes\GameState\GameMgr\PlayerMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

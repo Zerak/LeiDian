@@ -7,19 +7,7 @@ LOCAL_MODULE := cocos2dcpp_shared
 LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
-                   ../../Classes/AppDelegate.cpp \
-                   ../../Classes/CLoadLogo.cpp \
-                   ../../Classes/CGameEvents.cpp \
-                   ../../Classes/CGameMenu.cpp \
-                   ../../Classes/GameLevel.cpp \
-                   ../../Classes/CCRadioMenu.cpp \
-                   ../../Classes/CGameOver.cpp \
-                   ../../Classes/CGameManager.cpp \
-                   ../../Classes/CGameMap.cpp \
-                   ../../Classes/CPlayerSprite.cpp \
-                   ../../Classes/CRoleSprite.cpp \
-                   ../../Classes/CUnitSprite.cpp \
-                   ../../Classes/CEffect.cpp \
+                   ../../Classes/*.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
